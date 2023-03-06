@@ -1,20 +1,17 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "/api/index.php", "use": "vercel-php@0.3.1" },
-    { "src": "/public/**", "use": "@vercel/static" }
-  ],
-  "routes": [
-    {
-      "src": "/(css|js|images)/(.*)",
-      "dest": "public/$1/$2"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/api/index.php"
-    }
-  ],
+  "functions": {
+    "api/index.php": { "runtime": "vercel-php@0.3.1" }
+  },
+  "routes": [{
+    "src": "/(.*)",
+    "dest": "/api/index.php"
+  }],
   "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "true",
+    "APP_URL": "https://jones-the-dolphin.net",
+
     "APP_CONFIG_CACHE": "/tmp/config.php",
     "APP_EVENTS_CACHE": "/tmp/events.php",
     "APP_PACKAGES_CACHE": "/tmp/packages.php",
