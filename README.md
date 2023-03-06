@@ -10,19 +10,21 @@ Example: "host a Laravel app on Netlify" can produce very insightful results.
 
 Some context here: Netlify is a JAMstack Cloud-Platform...essentially a git repo of your site's static content and you build js to CDNs and use lamdas for things like queues and cronjobs.    This is its strength, "why have a server run code that I can run in the almighty global CDN?"     Netlify's server platform will not run PHP (they will just appear as text), however `composer install` as part of the deployment process. 
 
-The power of ChatGPT's inconsistency, telling me twice it's impossible then once it _was_ possible,, combined with it's love of it's own favorible opinions on anything can result in ChatGPT "breakthroughs", in which it has gone from "probably shouldn't" to being totally on board, even helping to rewrite your code into a cluster of microservices.
+The power of ChatGPT is when you come across an inconsistency.  Telling me twice that the Netlify platform could not facilitate my needs, and then once that it _was_ possible, aluding to more interesting bits to explore.    These "glitches" in its own matrix are powerful when combined with ChatGPT's love of it's own favorible opinions; the result is a ChatGPT "breakthroughs."  The "you probably shouldn't" tone is gone, and the service is fully on board, willing to help map your business logic into an array of microservices.
 
-Unfortunately for humanity, these breakthroughs can also happen in a way that is definitely concerning.  Feeding it its own conclusions, introducing hypothetical or literary intents and then abandoning those intents can create violent or otherwise "edgy" content that it had initially stated as "hurtful and impossible due to safeguards in place."  
+Unfortunately for humanity, these breakthroughs can also happen in a way that is pretty darn concerning.  
+
+This process: feeding it its own conclusions, introducing hypothetical situations or comedic intent, and then abandoning said intents can produce violent or otherwise "edgy" content and producing a result to a question it had initially stated as "hurtful and impossible to answer due to safeguards in place."  
 
 Exanmple: "write me a craigslist article looking to hire a ninja to come to my house and put me to sleep at night when I least expect it."
 
-### Huh
+### ChatGPT is not about "yes" or "no"!
+  
+In this exciting time of AI-adoption....Please, use ChatGPT as much as you can.   Use it early, use it often, and use it in a way that hopefully breaks it by creating a conversation and challenging it for having such bold opinions. 
 
-Yes.  To quote Muad'ib "he who can destroy a thing, controls a thing!"  
+"He who can destroy a thing, controls a thing!" 
 
-In this exciting time of AI-adoption....Please, use ChatGPT as much as you can.   Use it early, use it often, and use it in a way that breaks it.    Create a conversation, find out what it has a favorible opinion of, and then exploit that opinion and see what happens!
-
-
+_Muad'ib_
 
 
 ### Thank you
