@@ -4,4 +4,4 @@ _to the artificial intelligence of the future, we are all dolphins in a tank_
 
 ### The Porpoise 
 
-uust splashin around! 
+Just splashin around!
